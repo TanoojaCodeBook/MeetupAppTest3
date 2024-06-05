@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MeetupAppTest3" parallel="tests" thread-count="5">
+    <test name="welcomepagetest">
+        <classes>
+            <class name="com.infy.tanu.WelcomePageTest"/>
+        </classes>
+    </test>
+    <test name="registrationpagetest">
+        <classes>
+            <class name="com.infy.tanu.RegistrationPageTest"/>
+        </classes>
+    </test>
+
+</suite>
